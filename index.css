@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+    outline: 0px;
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255,254,254);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    height: 30px;
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.search{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search i{
+    padding-left: 10px;
+}
+.search input{
+    width: 400px;
+    height: 40px;
+    border: 0px;
+    padding-left: 10px;
+    background-color: rgb(255,254,254);
+}
+.search-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 20px;
+    border: 0px;
+    font-size: 16px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(0,174,238);
+    color: white;
+}
+.nav-center{
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.nav-right i{
+    margin: 10px;
+}
+.cart,.user{
+    font-size: 18px;
+    color: rgb(0,174,238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right p{
+    color: black;
+}
+
+.menu{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(255,254,254);
+    border: 1px solid rgba(197, 193, 193, 0.468);
+    color: gray;
+    font-weight: bold;
+    position: sticky;
+    top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.center{
+    width: 70%;
+    height: 70vh;
+    margin: 50px auto;
+}
+.center-top{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(199, 234, 248);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.shape{
+    width: 30%;
+    height: 50%;
+    border: 1px solid;
+    text-align: center;
+    line-height: 7vh;
+    vertical-align: center;
+    background-color: brown;
+    color: white;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.center-bottom{
+    width: 100%;
+    height: auto;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+    gap: 10px;
+    border: 1px solid;
+}
+.cards{
+    width: 23%;
+    height: 53vh;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    gap: 2px;
+}
+.name p{
+    font-weight: bold;
+}
+.cards p{
+    text-align: center;
+    font-size: 12px;
+}
+.cards .img{
+    width: 100%;
+    height: 60%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+}
+.description p{
+    color: green;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.rating i{
+    color: gold;
+}
+.price p{
+    font-weight: bold;
+}
+.add-to-cart{
+    width: 100%;
+    height: 5vh;
+    background-color:rgb(0,174,238) ;
+    border: 0px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.support{
+    font-size: 25px;
+    position: fixed;
+    background-color: green;
+    border-radius: 50%;
+    padding: 1%;
+    color: white;
+    bottom: 30px;
+    right: 30px;
+}
+.tag{
+    width: auto;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 2px 8px;
+    align-self: flex-start;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
